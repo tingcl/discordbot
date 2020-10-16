@@ -28,7 +28,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.bot.Bot</mainClass>
+                            <mainClass>bot.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
