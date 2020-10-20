@@ -6,7 +6,10 @@ A simple bot created using Java and Maven to assist with managing discord server
 
 ## demo
 
-For a simple demo, join my test server and play around with the bot
+For a simple demo, join my test server and play around with the bot. 
+
+Currently there's limited functionality and is still a work in progress.
+
 https://discord.gg/NPQAGQa
 
 ## deployment
