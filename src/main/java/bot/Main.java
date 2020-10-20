@@ -8,7 +8,7 @@ import javax.security.auth.login.LoginException;
 
 public class Main {
     public static void main(String[] args) throws LoginException {
-        JDABuilder builder = JDABuilder.createDefault("NzY2MjEyNjczOTMwNzg4ODg0.X4gFKQ.X_d-mk8LmmWHax_xGUPVFx7Jjbo");
+        JDABuilder builder = JDABuilder.createDefault(System.getenv("BOT_TOKEN"));
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("!info"));
         builder.addEventListeners(new CommandsModule());
